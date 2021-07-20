@@ -1,0 +1,73 @@
+
+
+  @keyframes mainTitle {
+    from {color: red;}
+    to {color: white;}
+    to {color: blue;}
+  }
+
+  @keyframes bkgrdc {
+    from {background-color: lightcyan;}
+    to {background-color: darkslateblue;}
+    to {background-color: lightblue;}
+  }
+
+  h1 {
+    font-size: 32px;
+    animation-name: mainTitle;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    text-align: center;
+  }
+
+  a {
+    cursor: pointer;
+    color: #1976d2;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    opacity: 0.8;
+  }
+
+  a:active {
+    color: darkred;
+  }
+
+  body {
+    margin: 0;
+    background-color: lightblue;
+    animation-name: bkgrdc;
+    animation-duration: 3s;
+  }
+
+.contact-card {
+    display: flex;
+    padding: 10px;
+    color: #ffffff;
+    background-color: rgb(42, 84, 104);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 10px 10px 25px -16px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    max-width: 500px;
+    max-height: 125px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-card p {
+    margin-left: 10px;
+    margin-top: 0;
+  }
+  
+  button {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  * {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: lightcoral;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
